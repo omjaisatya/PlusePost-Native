@@ -17,7 +17,7 @@ export default function HomeScreen() {
       }
     >
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">This is My First Expo 50!</ThemedText>
+        <ThemedText type="title">This is My First Expo 51!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -36,6 +36,7 @@ export default function HomeScreen() {
         <ThemedText type="subtitle">
           Checking Scroll view working or not
         </ThemedText>
+        <ThemedText type="default">Understanding Project workflow</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 2: Explore</ThemedText>
